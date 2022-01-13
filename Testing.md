@@ -11,4 +11,5 @@ This **quarter** I'm taking:
 * Ethn 2
 
 This is a [link](https://ucsd-cse15l-w22.github.io/week/week2/) to the `class website`
-This is my school ![library](https://ucsdnews.ucsd.edu/news_uploads/Resized_Geisel_Library_08.31.jpg)
+
+This is my school library ![library](https://ucsdnews.ucsd.edu/news_uploads/Resized_Geisel_Library_08.31.jpg)
