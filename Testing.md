@@ -1,7 +1,6 @@
 # This is my Testing page
 ## Courses
 ```
-# code block
 This **quarter** I'm takeing:
 * CSE 12
 * CSE 15L
