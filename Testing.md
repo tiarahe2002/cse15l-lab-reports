@@ -1,6 +1,6 @@
 # This is my Testing page
 ## About me
-> I am Tiara.
+> I am Tiara.<
 *My major is Math and Computer Science.*
 This **quarter** I'm taking:
 ---
