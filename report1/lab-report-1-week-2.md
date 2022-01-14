@@ -18,6 +18,7 @@ After finding your course-specific acount and changing password for it, we are g
 Once you logged in, your command window should look like this:
 ![image](connect.png)
 
+---
 ## Run some commands
 Here are some specific useful commands to try:
 * cd
@@ -35,6 +36,7 @@ To log out of the remote server in your terminal, you can use:
 * Ctrl-D
 * Run the command `exit`
 
+---
 ## Moving Files over SSH with scp
 Create a file on your computer called `WhereAmI.java`. Compile and run it on your computer use `javac` and `java`.
 
@@ -44,6 +46,7 @@ Then, in the terminal from the directory where you made this file, run this comm
 It should looks like:
 ![image](scp.png)
 
+---
 ## Setting an SSH Keys
 Every time we log in or run `scp`, we have to type our password. There is a way to avoid this repetitve tasks called `ssh-keygen`.
 The setup looks like this:
@@ -51,6 +54,7 @@ The setup looks like this:
 
 After this, I am able to `ssh` or `scp` from this client to the server without entering my password.
 
+---
 ## Optimizing Remote Running
 
  Now I can for making a local edit to WhereAmI.java, then copying it to the remote server and running it.
