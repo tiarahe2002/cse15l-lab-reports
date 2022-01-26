@@ -1,3 +1,0 @@
-
-![image](vscodeScreen.png)
-
