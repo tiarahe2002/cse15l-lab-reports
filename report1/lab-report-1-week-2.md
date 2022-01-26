@@ -21,12 +21,12 @@ Once you logged in, your command window should look like this:
 ---
 ## Run some commands
 Here are some specific useful commands to try:
-* cd
-* cd~
-* ls -lat
-* ls -a
-* cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+* `cd`
+* `cd~`
+* `ls -lat`
+* `ls -a`
+* `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
 Here is my terminal running some commands:
 ![image](commands.png)
