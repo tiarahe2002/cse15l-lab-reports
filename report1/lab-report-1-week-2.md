@@ -57,7 +57,7 @@ After this, I am able to `ssh` or `scp` from this client to the server without e
 ---
 ## Optimizing Remote Running
 
- Now I can for making a local edit to WhereAmI.java, then copying it to the remote server and running it.
+ Now I can for making a local edit to `WhereAmI.java`, then copying it to the remote server and running it.
 
 I added `ls` after the command of `ssh` in the same line. I didn't log in and enter the password again. I was able to get to the `ls` action immediately.
  ![image](running.png)
