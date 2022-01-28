@@ -61,3 +61,9 @@ After this, I am able to `ssh` or `scp` from this client to the server without e
 
 I added `ls` after the command of `ssh` in the same line. I didn't log in and enter the password again. I was able to get to the `ls` action immediately.
  ![image](running.png)
+
+ Also I can use semicolons to run multiple commands on the same line. For examples,
+ ![image](running2.png)
+
+And I used the up-arrow  to recall the last command that was run aand use ctrl-arrow to change the comment
+![image](running3.png)
