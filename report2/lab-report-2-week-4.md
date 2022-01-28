@@ -12,7 +12,7 @@ We added several empty lines in [test file 2](https://github.com/tiarahe2002/mar
 And the output looks like:
 ![image](bug1.png)
 
-Because the empty lines will cause the `currentIndex` be less than the length of file so that the while loop is non-stop and keep print out the `currentIndex`. In order to fix this infinite bug, we set a `if` condition so if system didn;t find any more brackets or parentheses after the last closed bracket, the loop will break.
+Because the empty lines will cause the `currentIndex` be less than the length of file so that the while loop is non-stop and keep print out the `currentIndex`. In order to fix this infinite bug, we set a `if` condition so if system didn't find any more brackets or parentheses after the last closed bracket, the loop will break.
 
 ## Second Code change
 ---
