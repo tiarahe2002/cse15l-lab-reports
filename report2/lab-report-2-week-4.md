@@ -1,5 +1,5 @@
 ## First Code change
----
+
 **Screenshoot of code change**
 
 The screenshot below shows the change of `MarkDownParse` code. 
@@ -15,7 +15,7 @@ And the output looks like:
 Because the empty lines will cause the `currentIndex` be less than the length of file so that the while loop is non-stop and keep print out the `currentIndex`. In order to fix this infinite bug, we set a `if` condition so if system didn't find any more brackets or parentheses after the last closed bracket, the loop will break.
 
 ## Second Code change
----
+
 **Screenshoot of code change**
 
 The screenshot below shows the second change of `MarkDownParse` code. 
