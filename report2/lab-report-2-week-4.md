@@ -2,7 +2,8 @@
 ---
 **Screenshoot of code change**
 
-The screenshot below shows the change of `MarkDownParse` code. We added a line to printout the `currentIndex` and causes a infinite loop.
+The screenshot below shows the change of `MarkDownParse` code. 
+We added a line to printout the `currentIndex` and causes a infinite loop.
 ![image](change1.png)
 
 **Link to the test file**
