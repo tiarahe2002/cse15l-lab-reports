@@ -67,3 +67,7 @@ I added `ls` after the command of `ssh` in the same line. I didn't log in and en
 
 And I used the up-arrow  to recall the last command that was run aand use ctrl-arrow to change the comment
 ![image](running3.png)
+
+I copied the code from my computer to the remote server using `scp`, then compile the code that was copied onto the remote server, and run the code that was compiled on the remote server in the same line.
+
+![image](part7.png)
