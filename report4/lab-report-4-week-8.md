@@ -7,6 +7,7 @@ For this snippet, the correct output should be
 `[google.com,google.com,ucsd.edu]`
 
 Here is how I tested:
+
 ![image](test1.png)
 
 Test for our group's MarkdownParse:
@@ -23,6 +24,7 @@ For this snippet, the correct output should be
 `[a.com(()),example.com]`
 
 Here is how I tested:
+
 ![image](test2.png)
 
 Test for our group's MarkdownParse:
@@ -39,6 +41,7 @@ For this snippet, the correct output should be
 `[https://ucsd-cse15l-w22.github.io/]`
 
 Here is how I tested:
+
 ![image](test3.png)
 
 Test for our group's MarkdownParse:
