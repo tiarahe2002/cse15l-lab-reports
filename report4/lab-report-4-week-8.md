@@ -37,7 +37,7 @@ I think a small code change will work for snippet 2. we could make change for ca
 Test for other group's MarkdownParse:
 ![image](result5.png)
 
-## Snippet 2
+## Snippet 3
 For this snippet, the correct output should be
 `[https://ucsd-cse15l-w22.github.io/]`
 
