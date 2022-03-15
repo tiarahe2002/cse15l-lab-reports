@@ -30,7 +30,8 @@ Here is how I tested:
 
 Our group's MarkdownParse was passed for second snippet;
 
-Test for other group's MarkdownParse: ![image](result5.png)
+Test for other group's MarkdownParse: 
+![image](newResult.png)
 
 ## Snippet 3
 For this snippet, the correct output should be
