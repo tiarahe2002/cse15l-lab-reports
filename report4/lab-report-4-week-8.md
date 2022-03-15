@@ -22,17 +22,13 @@ Test for other group's MarkdownParse:
 
 ## Snippet 2
 For this snippet, the correct output should be
-`[a.com(()),example.com]`
+`[a.com,a.com(()),example.com]`
 
 Here is how I tested:
 
 ![image](test2.png)
 
-Test for our group's MarkdownParse:
-![image](result2.png)
-
-Change work for snippet 2:
-I think a small code change will work for snippet 2. we could make change for cases related to nest parentheses, brackets, and escaped brackets could be to pair close and opening parentheses. 
+our group's MarkdownParse was passed for second snippet;
 
 Test for other group's MarkdownParse:
 ![image](result5.png)
