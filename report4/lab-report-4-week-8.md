@@ -28,7 +28,7 @@ Here is how I tested:
 
 ![image](test2.png)
 
-our group's MarkdownParse was passed for second snippet;
+Our group's MarkdownParse was passed for second snippet;
 
 Test for other group's MarkdownParse:
 ![image](result5.png)
