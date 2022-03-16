@@ -6,10 +6,22 @@ We saved the our output and also given output to files  by using the command `ba
 
 ## First Test: 496
 The content of Test 496 is `[link](foo(and(bar))`
+
 The expect test output is `[]`
+
 The output of our repo is `[foo(and(bar]`
+
 The output of Joe's repo is `[]`
 
 The bug on our repo of this test case is that we didn't check the brackets with in the link. There are brackets within the link. And it is correct if the bracket is closed within the links. For this test case, it contains two openbrackets within the link but the outside brackets doesn't have corresponding closed bracket. And the problem of our repo is it did not detect that they had not been closed. In order to fix it, we need to add code on file to check what we are looking at and if it is an open bracket
 
-## Second Test: 496
+## Second Test: 498
+The content of Test 496 is `[link](<foo(and(bar)>)`
+
+The expect test output is `[foo(and(bar]`
+
+The output of our repo is `[<foo(and(bar]`
+
+The output of Joe's repo is `[]`
+
+The link should be included becuse it is within <>.  Mine doesnt detect bracket issues. Inorder to fix this problem, we need to write a way to find and check if offending brackets are within <>. I need to write code to manage finding and tracking the effects of <>
